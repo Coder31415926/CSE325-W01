@@ -1,9 +1,9 @@
-﻿
+
 
 string name = "Chris";
 string location = "Virginia";
-Console.WriteLine("My name is "+name);
-Console.WriteLine("I am from "+location);
+Console.WriteLine($"My name is {name}");
+Console.WriteLine($"I am from {location}");
 Console.WriteLine(DateTime.Today.ToShortDateString());
 DateTime christmas = new DateTime(DateTime.Today.Year,12,25);
 Console.WriteLine("There are "+ (christmas - DateTime.Today) + " days until Christmas");
